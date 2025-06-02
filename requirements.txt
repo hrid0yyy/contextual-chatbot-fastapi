@@ -3,3 +3,4 @@ uvicorn==0.30.6
 langchain==0.3.0
 langchain-huggingface==0.1.0
 python-dotenv==1.0.1
+huggingface_hub==0.23.4

@@ -9,6 +9,7 @@ import os
 # Load environment variables
 load_dotenv()
 hf_api_key = os.getenv("HUGGINGFACEHUB_API_TOKEN")
+print("API Token:", hf_api_key)
 
 # Initialize FastAPI app
 app = FastAPI()
